@@ -48,7 +48,7 @@ def Start():
                 break
         while True:
             x=random.randint(0,8)
-            if form[x-1]=='-':
+            if form[x]=='-':
                 form[x]='O'
                 break
 
